@@ -1,0 +1,11 @@
+1 - Initialiser le Mini - project - team
+2 - git remote add origin git@github.com:DouziOumaima/Mini-Project-Team.git
+  git branch -M main
+  git push -u origin main
+3 - git clone https://github.com/DouziOumaima/Mini-Project-Team.git (axel et lacine)
+4 - modifier le .env et decommenter la ligne 27 aprés commenter la ligne 28  on met ->DATABASE_URL="mysql://root@127.0.0.1:3306/Mini-Project-Team?serverVersion=8&charset=utf8mb4".
+5 -lancer Wamp 
+6- créer la DB  symfony console doctrine:database:create
+7 lancer le server avec  symfony server:start 
+
+
