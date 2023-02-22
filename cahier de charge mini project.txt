@@ -8,5 +8,6 @@
 6- créer la DB  symfony console doctrine:database:create
 7- lancer le server avec  symfony server:start 
 8- créer des branches pour les 3 avec ( git branch oumaima , git checkout oumaima, git add --all, git commit -m '', git commit -m 'initialiser base de données', git push -u origin oumaima)
+9- creation de entity user avec les properties (FirstName, LastName, Email, Role, Id, createdAt, updatedAt )
 
 
