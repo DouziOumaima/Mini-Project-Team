@@ -6,6 +6,7 @@
 4 - modifier le .env et decommenter la ligne 27 aprés commenter la ligne 28  on met ->DATABASE_URL="mysql://root@127.0.0.1:3306/Mini-Project-Team?serverVersion=8&charset=utf8mb4".
 5 -lancer Wamp 
 6- créer la DB  symfony console doctrine:database:create
-7 lancer le server avec  symfony server:start 
+7- lancer le server avec  symfony server:start 
+8- créer des branches pour les 3 avec ( git branch oumaima , git checkout oumaima, git add --all, git commit -m '', git commit -m 'initialiser base de données', git push -u origin oumaima)
 
 
