@@ -37,7 +37,7 @@ if($form->isSubmitted() && $form->isValid()){
 
 
     //redirection vers la page d'accueil
-    return $this->redirectToRoute('app_user_registration');
+    return $this->redirectToRoute('app_home_display');
 }
 
         return $this->render('user/inscription.html.twig', [
